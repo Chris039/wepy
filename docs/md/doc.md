@@ -125,22 +125,7 @@ customFileTypes:
 
 - **VS Code**
 
-&emsp;&emsp;1. 在 Code 里先安装 Vue 的语法高亮插件 `Vetur`。
-
-&emsp;&emsp;2. 打开任意 `.wpy` 文件。
-
-&emsp;&emsp;3. 点击右下角的选择语言模式，默认为`纯文本`。
-
-&emsp;&emsp;4. 在弹出的窗口中选择 `.wpy 的配置文件关联...`。
-
-&emsp;&emsp;5. 在`选择要与 .wpy 关联的语言模式` 中选择 `Vue`。
-
-&emsp;&emsp;6. 在VS Code编辑器设置中设置。
-//文件-首选项-设置-settings.json
-settings.json
-"files.associations": {
-"*.wpy": "vue"
-}
+&emsp;&emsp;1. 在 Code 里搜索`Vetur` 会看到一个 Vetur-wepy 的插件，直接下载，然后打开项目发现可以高亮了。
 
 - **VIM**
 
